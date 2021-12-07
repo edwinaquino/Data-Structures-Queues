@@ -1,22 +1,36 @@
-# Node.js Application Starter
+#  Data Structures: Queues
 
-A simple Node.js 'Hello World' App to get you started as a boilerplate for JavaScript projects. 
+This is a node.js app using ES6 classes to implement Queues for your Data Structures in Arrays or lists.
 
 ## Installation
 
-1. Clone this repo.
-`git clone https://github.com/edwinaquino/Node.js-App-Starter.git`
+1 - Clone this repo: 
 
-2. Install packages: 
+`https://github.com/edwinaquino/Data-Structures-Queues.git`
+
+2 - Change Directory: 
+
+`Data-Structures-Queues`
+
+3 - Install Packages 
+
 `npm install`
 
-3. Start the server: 
-`npm start`
 
 ## Usage
-Open Browser to http://127.0.0.1:3000/
+This application uses the console to display the output.
+Run the Class methods to manage your data structure with queues. 
 
-Enjoy!
+`$ node app.js`
 
+## Output
+```bash
+Queue { items: [ 'blue', 'red', 'green', 'yellow' ] }
+Remove Head blue
+Queue { items: [ 'red', 'green', 'yellow' ] }
+Array Head:  red
+Array Size:  3
+is Array Empty:  false
+```
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

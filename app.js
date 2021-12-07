@@ -1,14 +1,30 @@
-const http = require('http');
+import Queue from "./Queue.js";
 
-const hostname = '127.0.0.1';
-const port = 3000;
+const colors = new Queue();
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World');
-});
+colors.enqueue("blue");
+colors.enqueue("red");
+colors.enqueue("green");
+colors.enqueue("yellow");
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+// get a list of all the elements in the array
+console.log(colors); 
+// output: items: [ 'blue', 'red', 'green', 'yellow' ]
+
+
+// remove head
+console.log("Remove Head", colors.dequeue()); 
+console.log(colors); 
+// output: items: ['red', 'green', 'yellow' ]
+
+// PEEK at the first item in the array
+console.log("Array Head: ", colors.peek()); 
+// output: red
+
+// Get the size of the array
+console.log("Array Size: ", colors.getSize()); 
+// output: red
+
+// Check if Array is empty or not
+console.log("is Array Empty: ", colors.isEmpty()); 
+// output: red

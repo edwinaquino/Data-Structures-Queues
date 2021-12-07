@@ -1,13 +1,10 @@
 {
-  "name": "nodejs-starter",
+  "name": "javascript-queues",
   "version": "1.0.0",
-  "description": "",
+  "description": "Data Structures - Implement a Queue in JavaScript",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
+  "type": "module",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
