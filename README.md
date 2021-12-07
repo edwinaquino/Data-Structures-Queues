@@ -6,11 +6,11 @@ This is a node.js app using ES6 classes to implement Queues for your Data Struct
 
 1 - Clone this repo: 
 
-`https://github.com/edwinaquino/Data-Structures-Queues.git`
+`git clone https://github.com/edwinaquino/Data-Structures-Queues.git`
 
 2 - Change Directory: 
 
-`Data-Structures-Queues`
+`c Data-Structures-Queues`
 
 3 - Install Packages 
 
