@@ -10,7 +10,7 @@ This is a node.js app using ES6 classes to implement Queues for your Data Struct
 
 2 - Change Directory: 
 
-`c Data-Structures-Queues`
+`cd Data-Structures-Queues`
 
 3 - Install Packages 
 
